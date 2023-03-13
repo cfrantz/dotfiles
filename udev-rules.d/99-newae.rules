@@ -1,0 +1,8 @@
+# allow users to claim the device
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="2b3e", ATTRS{idProduct}=="ace1", MODE="0660", GROUP="cfrantz", TAG+="uaccess"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="2b3e", ATTRS{idProduct}=="ace2", MODE="0660", GROUP="cfrantz", TAG+="uaccess"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="2b3e", ATTRS{idProduct}=="ace3", MODE="0660", GROUP="cfrantz", TAG+="uaccess"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="2b3e", ATTRS{idProduct}=="c305", MODE="0660", GROUP="cfrantz", TAG+="uaccess"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="2b3e", ATTRS{idProduct}=="c310", MODE="0660", GROUP="cfrantz", TAG+="uaccess"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="2b3e", ATTRS{idProduct}=="c000", MODE="0660", GROUP="cfrantz", TAG+="uaccess"
+
